@@ -306,8 +306,8 @@ margin-left: 5rem;
     color: #38a1f3;
 }
 
-.fa-github-square:hover {
-    color: #ea4c89
+.fa-github:hover {
+    color: #3885ea
 }
 
 
@@ -536,7 +536,23 @@ textarea{
     background-color: #0b0b1b;
     padding: 2rem 0;
     position: relative;
+    display: flex;
+    justify-content: center;
+}
 
+.copyright>.evenlySpacedContent{
+    width: 20vw;
+}
+
+.evenlySpacedContent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.centeredChild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .up{
