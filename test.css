@@ -306,7 +306,7 @@ margin-left: 5rem;
     color: #38a1f3;
 }
 
-.fa-github:hover {
+.fa-github:hover, .fa-github-square:hover {
     color: #3885ea
 }
 
